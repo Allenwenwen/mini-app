@@ -1,3 +1,4 @@
 <!--pages/home/home.wxml-->
-<text class="title">Start learning wechat app, happy</text>
-<button size="mini">按钮</button>
+<text class="title">开始学习小程序啦！</text>
+<view>知识点1</view>
+<view>哈哈</view>
