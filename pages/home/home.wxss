@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+=======
+/* pages/home/home.wxss */
+.title {
+  color: skyblue
+}
+.yellow {
+  color: yellow
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+>>>>>>> 547ba435cc4598eb0c3c3f177def1bff24173025

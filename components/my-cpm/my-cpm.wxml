@@ -1,0 +1,3 @@
+<!--components/my-cpm/my-cpm.wxml-->
+<view class="title">{{title}}</view>
+<view class="content">{{content}}</view>

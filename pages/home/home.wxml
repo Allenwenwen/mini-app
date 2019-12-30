@@ -1,1 +1,39 @@
+<<<<<<< HEAD
 <view>哈哈</view>
+=======
+<!--pages/home/home.wxml-->
+<!-- <text>Start learning wechat app, happy</text> -->
+
+
+<!-- 使用自定义组件 -->
+<!-- <my-cpm></my-cpm>
+<my-cpm></my-cpm>
+<my-cpm /> -->
+
+<!-- 给自定义组件传递数据 -->
+<my-prop title="天天学习" titleclass="yellow"/>
+<my-prop title="拉开距离" titleclass="blue"/>
+<my-prop title="自律赢得收获" titleclass="red"/>
+<my-prop />
+
+<!-- 组件内部发出事件 -->
+<view>当前计数：{{counter}}</view>
+<my-event bind:increment="handleIncrement"/>
+
+<!-- 自定义组件练习 -->
+<tab-control titles="{{['衣服','鞋子','裤子']}}"
+             bind:itemClick="handleTabClick"/>
+
+<!-- 直接选中组件修改数据/调用方法 -->
+<button size="mini" bind:tap="hanldeIncrementCpn">修改组件内的数据</button>
+<my-sel id="sel-class"/>
+
+
+
+
+
+
+
+
+
+>>>>>>> 547ba435cc4598eb0c3c3f177def1bff24173025
